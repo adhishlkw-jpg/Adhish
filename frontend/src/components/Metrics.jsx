@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { METRICS } from '../lib/data';
 
-const Counter = ({ to, decimals = 0, suffix = '' }) => {
+const Counter = ({ to, decimals = 0, suffix = '', prefix = '' }) => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-80px' });
   const [val, setVal] = useState(0);
@@ -23,7 +23,7 @@ const Counter = ({ to, decimals = 0, suffix = '' }) => {
 
   const display = decimals ? val.toFixed(decimals) : Math.round(val).toLocaleString();
   return (
-    <span ref={ref}>{display}{suffix}</span>
+    <span ref={ref}>{prefix}{display}{suffix}</span>
   );
 };
 
@@ -33,12 +33,12 @@ export const Metrics = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}
-          className="grid grid-cols-2 lg:grid-cols-6 gap-6 lg:gap-4"
+          className="grid grid-cols-2 lg:grid-cols-7 gap-6 lg:gap-4"
         >
           {METRICS.map((m, i) => (
             <div key={m.label} className="text-center lg:text-left" data-testid={`metric-${i}`}>
               <div className="font-display font-black text-3xl lg:text-4xl tracking-tight brand-gradient-text">
-                <Counter to={m.value} decimals={m.decimals || 0} suffix={m.suffix} />
+                <Counter to={m.value} decimals={m.decimals || 0} suffix={m.suffix} prefix={m.prefix || ''} />
               </div>
               <div className="text-xs lg:text-sm text-muted-foreground mt-2">{m.label}</div>
             </div>

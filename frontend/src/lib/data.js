@@ -2,7 +2,6 @@ export const NAV_LINKS = [
   { id: 'home', label: 'Home' },
   { id: 'about', label: 'About' },
   { id: 'expertise', label: 'Expertise' },
-  { id: 'work', label: 'Work' },
   { id: 'case-studies', label: 'Case Studies' },
   { id: 'articles', label: 'Articles' },
   { id: 'resume', label: 'Resume' },
@@ -10,10 +9,10 @@ export const NAV_LINKS = [
 ];
 
 export const HERO_STATS = [
-  { value: '11+', label: 'Years Experience' },
-  { value: '100+', label: 'Events Delivered' },
-  { value: '350+', label: 'Media Mentions' },
-  { value: '6K+', label: 'LinkedIn Followers' },
+  { value: '10+', label: 'Years Experience' },
+  { value: '~$2M+', label: 'Pipeline Influenced' },
+  { value: '30%', label: 'MQL Growth' },
+  { value: '500+', label: 'Media Mentions' },
 ];
 
 export const FLOATING_TAGS = [
@@ -21,7 +20,7 @@ export const FLOATING_TAGS = [
 ];
 
 export const TIMELINE = [
-  { company: 'Hybrid.ai', role: 'Head of Marketing — AdTech / AI', period: '2023 — Present', highlight: 'Led GTM, PR, ABM and category-defining narrative for VOX contextual suite.' },
+  { company: 'Hybrid.ai', role: 'Marketing Lead — AdTech / AI', period: '2023 — 2026', highlight: 'Led GTM, PR, ABM and category-defining narrative for VOX contextual suite.' },
   { company: 'Mitgo Group', role: 'Senior Marketing Manager — SaaS / MarTech', period: '2021 — 2023', highlight: 'Scaled regional demand engine across affiliate, partner & content marketing.' },
   { company: 'Marriott International', role: 'Marketing & Brand', period: '2018 — 2021', highlight: 'Drove digital, loyalty and luxury brand storytelling for India properties.' },
   { company: 'IHG Hotels & Resorts', role: 'Marketing Communications', period: '2016 — 2018', highlight: 'Owned PR, events and campaign rollouts across the IHG India portfolio.' },
@@ -135,12 +134,13 @@ export const CASE_STUDIES = [
 ];
 
 export const METRICS = [
-  { value: 11, suffix: '+', label: 'Years Experience' },
-  { value: 100, suffix: '+', label: 'Industry Events' },
-  { value: 350, suffix: '+', label: 'Media Mentions' },
+  { value: 10, suffix: '+', label: 'Years Experience' },
+  { value: 200, suffix: '+', label: 'Industry Events' },
+  { value: 500, suffix: '+', label: 'Media Mentions' },
   { value: 30, suffix: '%', label: 'MQL Growth' },
   { value: 2.5, suffix: 'x', label: 'Engagement Growth', decimals: 1 },
   { value: 6000, suffix: '+', label: 'LinkedIn Audience' },
+  { value: 2, prefix: '~$', suffix: 'M+', label: 'Pipeline Influenced' },
 ];
 
 export const ARTICLES = [

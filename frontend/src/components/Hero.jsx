@@ -34,9 +34,9 @@ export const Hero = () => {
             className="font-display font-black tracking-tighter mt-6 text-4xl sm:text-5xl lg:text-6xl leading-[1.05]"
             data-testid="hero-headline"
           >
-            Turning Products Into
+            Turning Product Complexities Into
             <br className="hidden sm:block" />
-            <span className="brand-gradient-text"> Market Leaders.</span>
+            <span className="brand-gradient-text"> Market Demand.</span>
           </motion.h1>
 
           <motion.p
@@ -54,7 +54,7 @@ export const Hero = () => {
           >
             <Button
               data-testid="hero-cta-view-work"
-              onClick={() => scrollTo('work')}
+              onClick={() => scrollTo('case-studies')}
               className="rounded-full brand-gradient text-white hover:opacity-90 px-6 h-12"
             >
               View My Work <ArrowRight className="ml-2 h-4 w-4" />

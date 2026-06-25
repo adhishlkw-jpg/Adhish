@@ -8,11 +8,9 @@ import { Navigation } from '@/components/Navigation';
 import { Hero } from '@/components/Hero';
 import { About } from '@/components/About';
 import { Expertise } from '@/components/Expertise';
-import { Work } from '@/components/Work';
 import { CaseStudies } from '@/components/CaseStudies';
 import { Articles } from '@/components/Articles';
 import { Metrics } from '@/components/Metrics';
-import { Testimonials } from '@/components/Testimonials';
 import { Resume } from '@/components/Resume';
 import { Contact } from '@/components/Contact';
 import { Footer } from '@/components/Footer';
@@ -29,11 +27,9 @@ const HomePage = () => {
         <Hero />
         <About />
         <Expertise />
-        <Work />
         <CaseStudies />
         <Articles />
         <Metrics />
-        <Testimonials />
         <Resume />
         <Contact />
       </main>
