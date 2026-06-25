@@ -9,6 +9,7 @@ import { Hero } from '@/components/Hero';
 import { About } from '@/components/About';
 import { Expertise } from '@/components/Expertise';
 import { CaseStudies } from '@/components/CaseStudies';
+import { ProductDecks } from '@/components/ProductDecks';
 import { Articles } from '@/components/Articles';
 import { Metrics } from '@/components/Metrics';
 import { Resume } from '@/components/Resume';
@@ -28,6 +29,7 @@ const HomePage = () => {
         <About />
         <Expertise />
         <CaseStudies />
+        <ProductDecks />
         <Articles />
         <Metrics />
         <Resume />

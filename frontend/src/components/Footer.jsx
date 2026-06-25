@@ -23,7 +23,7 @@ export const Footer = () => {
           <div className="col-span-6 lg:col-span-2">
             <div className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">Site</div>
             <ul className="space-y-2 text-sm">
-              {['case-studies', 'articles', 'resume', 'contact'].map((id) => (
+              {['work', 'product-decks', 'articles', 'resume', 'contact'].map((id) => (
                 <li key={id}>
                   <button data-testid={`footer-link-${id}`} onClick={() => scrollTo(id)} className="hover:brand-gradient-text">
                     {id.replace('-', ' ').replace(/\b\w/g, (l) => l.toUpperCase())}

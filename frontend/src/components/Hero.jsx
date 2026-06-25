@@ -54,7 +54,7 @@ export const Hero = () => {
           >
             <Button
               data-testid="hero-cta-view-work"
-              onClick={() => scrollTo('case-studies')}
+              onClick={() => scrollTo('work')}
               className="rounded-full brand-gradient text-white hover:opacity-90 px-6 h-12"
             >
               View My Work <ArrowRight className="ml-2 h-4 w-4" />
