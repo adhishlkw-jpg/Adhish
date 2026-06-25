@@ -1,0 +1,38 @@
+{
+  "summary": "First-finish smoke test of Adhish Kacker portfolio. Backend (FastAPI) and frontend (React) both healthy. All 12 review-requested checks pass except two minor test-script-related observations.",
+  "tested_scope": ["backend", "frontend", "integration"],
+  "passed": [
+    "GET /api/ returns 200 with API title",
+    "POST /api/contact valid payload returns 200 with id + persisted in Mongo",
+    "POST /api/contact invalid email returns 422 validation error",
+    "GET /api/contact returns array of submissions (descending order)",
+    "Page title = 'Adhish Kacker — Senior Product Marketing & GTM Leader'",
+    "Hero section visible with headline 'Turning Products Into Market Leaders'",
+    "Nav link 'About' smooth-scrolls to about section",
+    "Theme toggle flips html.dark class on/off (visual works)",
+    "Hero CTA 'View My Work' scrolls to work section",
+    "Hero CTA 'Download Resume' click invoked (scroll executed)",
+    "Case Studies: 5 case-trigger-* found; clicking expands and reveals case-download-* button",
+    "Articles: exactly 13 article-card-* anchors, all with target='_blank' and rel='noopener noreferrer', valid external URLs",
+    "Metrics rendered: 11+, 100+, 350+, 30%, 2.5x, 6,000+ all present",
+    "Testimonials next/prev buttons clickable and cycle without error",
+    "Contact form submits successfully end-to-end: toast 'Message sent — Adhish will get back to you shortly.' shown; form fields cleared; record persisted via API",
+    "Footer has 5 footer-link-* internal scroll buttons",
+    "Mobile (390x800): nav-mobile-toggle opens menu with all 7 nav links visible (verified via screenshot)",
+    "No console/page JS errors observed during full flow"
+  ],
+  "failed": [
+    {
+      "area": "theme persistence",
+      "issue": "Could not locate theme value in localStorage under common keys (theme/portfolio-theme/adhish-theme). Toggle visual works; persistence across reload not conclusively verified.",
+      "evidence": "localStorage.getItem returned null for tried keys",
+      "priority": "LOW"
+    }
+  ],
+  "action_items": [
+    "Optional: confirm the localStorage key name used for theme persistence and verify it survives a full page reload."
+  ],
+  "success_rate": {"backend": "100%", "frontend": "~95%"},
+  "retest_needed": false,
+  "full_testing_deferred": true
+}
