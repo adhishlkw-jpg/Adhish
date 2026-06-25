@@ -1,0 +1,105 @@
+{
+  "project": {
+    "name": "Adhish Kacker Portfolio",
+    "domain": "Premium Personal Brand / B2B SaaS Portfolio",
+    "archetype": "Archetype 4 (Swiss & High-Contrast) + Luxury Tech Polish",
+    "theme_mode": "light_default_with_dark_toggle"
+  },
+  "typography": {
+    "headings": {
+      "family": "Sora, sans-serif",
+      "weight": "font-bold to font-black",
+      "tracking": "tracking-tight or tracking-tighter",
+      "rules": "Never use Inter for headings. Use Sora for a wide-stance geometric presence. Ensure text scale maxes at text-5xl to text-6xl."
+    },
+    "body": {
+      "family": "Manrope, sans-serif",
+      "weight": "font-normal to font-medium",
+      "rules": "Highly legible, perfectly neutral to offset the wide headings."
+    },
+    "hierarchy_rules": "Max heading size text-5xl to text-6xl. Do not use 7xl+. Ensure hierarchy gap is max 2 Tailwind steps."
+  },
+  "colors": {
+    "brand_gradient": {
+      "stops": ["#5B0FFF", "#8B1CF7", "#D946EF", "#FF6B35"],
+      "usage": "Use ONLY for the Hero Mesh, hover states on interactive cards, and text-gradient on key metrics. DO NOT overuse."
+    },
+    "light_mode": {
+      "base": "#FFFFFF",
+      "surface": "#F5F5F7",
+      "border": "#E5E5EA",
+      "text_primary": "#0B1020",
+      "text_secondary": "#6B7280"
+    },
+    "dark_mode": {
+      "base": "#0B1020",
+      "surface": "#12182B",
+      "border": "#1F2937",
+      "text_primary": "#FFFFFF",
+      "text_secondary": "#9CA3AF"
+    },
+    "accent": "#F8C44F",
+    "rules": "Tinted greys rule: Base dark mode is deep navy-tinted #0B1020, not pure black."
+  },
+  "layout_and_spacing": {
+    "spacing_scale": "Generous spacing. Use p-8 to p-12 for standard sections, py-24 to py-32 for vertical section gaps.",
+    "grid_system": "Bento Grid Protocol (Mode A: Tetris) for Work and Expertise sections. Mix spans: col-span-8 and col-span-4 to create tension.",
+    "alignment": "Left-align dense text and cards. Optical alignment over geometric."
+  },
+  "surfaces": {
+    "sticky_nav": "Crystal Glassmorphism. Light: bg-white/70 backdrop-blur-xl border-b border-black/5. Dark: bg-[#0B1020]/70 backdrop-blur-xl border-b border-white/5.",
+    "cards": "Neumorphic/Tactile variant. Flat background (surface color), subtle 1px border. Hover: Slight lift (-translate-y-1) and subtle shadow with brand gradient border reveal via group-hover."
+  },
+  "motion": {
+    "hero": "Framer Motion 3D or intricate CSS animated mesh gradient background for 'Turning Products Into Market Leaders'.",
+    "scroll": "Smooth scrolling required. Staggered fade-up entrances for timeline and case study cards.",
+    "micro_interactions": "Cards feature the 'Tracing Beam' or subtle glow on hover. Interactive floating cards in the hero."
+  },
+  "components": {
+    "Hero": "Animated gradient mesh background (opacity 20% in light mode, 40% in dark mode) so text is highly readable. Floating expertise cards using Framer Motion.",
+    "StickyNavigation": "Glassmorphism header, z-50. Links: Home, About, Expertise, Work, Case Studies, Articles, Resume, Contact. Primary CTA: 'Book a Conversation'.",
+    "AboutTimeline": "Vertical chronological timeline. Sharp geometric points. Left-aligned content. Focus on hybrid.ai, Mitgo, Marriott, IHG, Aditya Birla.",
+    "ExpertiseCards": "Bento grid. Interactive hover states showing the accent gradient.",
+    "WorkShowcase": "Case study cards using abstract 3D images. On click, expands (dialog or inline expand) to show Challenge/Strategy/Execution/Results and a Download PDF button.",
+    "ArticlesSection": "Grid of external links. Cards feature publication name as Overline (tracking-widest uppercase), title, thumbnail, and 'Read ↗' button.",
+    "MetricsCounters": "Animated number counters triggered on scroll using react-countup or framer-motion.",
+    "Testimonials": "Carousel or stacked masonry. Use large quote marks (text-6xl) in brand gradient.",
+    "ContactForm": "Shadcn UI heavily customized. Minimalist floating labels or clean input fields. Stores in MongoDB.",
+    "Footer": "Massive bottom padding (py-32). Large typography 'Let's Talk' (text-5xl)."
+  },
+  "testing": {
+    "rules": "All interactive and key informational elements MUST include a data-testid attribute in kebab-case."
+  },
+  "media": {
+    "hero_backgrounds": [
+      {
+        "url": "https://images.pexels.com/photos/28628485/pexels-photo-28628485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Vibrant 3D rendering of an abstract wave-like gradient in purple and orange hues. Perfect for the hero mesh or case study abstract thumbnails."
+      }
+    ],
+    "abstract_thumbnails": [
+      {
+        "url": "https://images.pexels.com/photos/13807426/pexels-photo-13807426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Colorful abstract 3D rendering for Work Showcase cards."
+      },
+      {
+        "url": "https://images.pexels.com/photos/14528986/pexels-photo-14528986.jpeg",
+        "description": "Minimalist architectural detail for 'Context Is King' or structural case studies."
+      }
+    ],
+    "portraits": [
+      {
+        "url": "https://images.unsplash.com/photo-1718209881007-c0ecdfc00f9d",
+        "description": "Professional modern portrait placeholder for Adhish Kacker."
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "DO NOT use Inter for any headings. Strictly use Sora for headings and Manrope for body text.",
+    "Implement the specific brand gradient (#5B0FFF to #FF6B35) carefully. It should not overwhelm the UI. Keep 80% of the UI clean (white/stone or dark navy) and use the gradient for the hero mesh, accents, and hover states.",
+    "For the Timeline logos (Marriott, etc.), use clean typography-based logos (e.g., text-xl font-bold tracking-tight) instead of messy colored PNGs to maintain the high-end B2B aesthetic.",
+    "Use standard pure HTML/Tailwind for the marketing layout, avoiding rigid generic cards. Embrace asymmetry in the Work and Expertise sections using Bento Grid Protocol.",
+    "Add data-testid attributes to all buttons, links, and forms.",
+    "Install and use 'lucide-react' for all standard icons, and 'framer-motion' for the floating cards and scroll reveals."
+  ]
+}
