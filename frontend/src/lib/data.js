@@ -14,6 +14,7 @@ export const HERO_STATS = [
   { value: '~$2M+', label: 'Pipeline Influenced' },
   { value: '30%', label: 'MQL Growth' },
   { value: '500+', label: 'Media Mentions' },
+  { value: '10+', label: 'Webinars & Podcasts' },
 ];
 
 export const FLOATING_TAGS = [
@@ -29,12 +30,32 @@ export const TIMELINE = [
 ];
 
 export const EXPERTISE = [
-  { title: 'Product Marketing', items: ['Positioning', 'Messaging', 'Launches', 'Sales Enablement'], icon: 'Rocket' },
-  { title: 'GTM Strategy', items: ['ICP Development', 'Buyer Personas', 'Launch Frameworks', 'Pipeline Generation'], icon: 'Target' },
+  { title: 'Product Marketing & GTM', items: ['Positioning', 'Messaging', 'SaaS Launches', 'Sales Enablement'], icon: 'Rocket' },
+  { title: 'B2B Marketing Strategy', items: ['ICP Development', 'Buyer Personas', 'Launch Frameworks', 'Revenue Marketing'], icon: 'Target' },
   { title: 'Demand Generation', items: ['ABM', 'Email Automation', 'LinkedIn Ads', 'Lead Nurturing'], icon: 'Zap' },
-  { title: 'Content & Thought Leadership', items: ['Blogs', 'Podcasts', 'PR', 'Case Studies'], icon: 'BookOpen' },
-  { title: 'Brand & Communications', items: ['Media Relations', 'Executive Branding', 'Corporate Comms'], icon: 'Megaphone' },
-  { title: 'AI Marketing', items: ['AI Workflows', 'Prompt Engineering', 'Marketing Automation'], icon: 'Sparkles' },
+  { title: 'Account-Based Marketing', items: ['Target Account Plans', 'Sales-Marketing Sync', '1:1 Personalisation', 'Pipeline Influence'], icon: 'Crosshair' },
+  { title: 'Content & Thought Leadership', items: ['Blogs & Bylines', 'Podcasts', 'PR', 'Case Studies'], icon: 'BookOpen' },
+  { title: 'Brand & Communications', items: ['Media Relations', 'Executive Branding', 'Corporate Comms', 'Analyst Relations'], icon: 'Megaphone' },
+  { title: 'AI Marketing', items: ['AI Workflows', 'Prompt Engineering', 'Marketing Automation', 'AI-Assisted Content'], icon: 'Sparkles' },
+  { title: 'SEO & Digital Growth', items: ['SEO Strategy', 'Performance Marketing', 'Site Engagement', 'Conversion Optimisation'], icon: 'TrendingUp' },
+  { title: 'Marketing Automation', items: ['HubSpot Workflows', 'Lifecycle Marketing', 'CRM Integration', 'Lead Scoring'], icon: 'Cog' },
+  { title: 'Events & Partner Marketing', items: ['Industry Events', 'Executive Roundtables', 'Co-Marketing', 'Field Marketing'], icon: 'Users' },
+];
+
+export const TOOLS = [
+  { name: 'HubSpot', category: 'Automation & CRM' },
+  { name: 'GetResponse', category: 'Email' },
+  { name: 'Instantly.ai', category: 'Outbound' },
+  { name: 'Google Ads', category: 'Paid Media' },
+  { name: 'Meta Ads', category: 'Paid Media' },
+  { name: 'LinkedIn Ads', category: 'Paid Media' },
+  { name: 'Google Analytics', category: 'Analytics' },
+  { name: 'SEMrush', category: 'SEO' },
+  { name: 'Google Search Console', category: 'SEO' },
+  { name: 'Claude', category: 'AI' },
+  { name: 'ChatGPT', category: 'AI' },
+  { name: 'Canva AI', category: 'AI Creative' },
+  { name: 'Gamma', category: 'AI Decks' },
 ];
 
 export const WORK = [
@@ -146,7 +167,7 @@ export const METRICS = [
   { value: 200, suffix: '+', label: 'Industry Events' },
   { value: 500, suffix: '+', label: 'Media Mentions' },
   { value: 30, suffix: '%', label: 'MQL Growth' },
-  { value: 2.5, suffix: 'x', label: 'Engagement Growth', decimals: 1 },
+  { value: 10, suffix: '+', label: 'Webinars & Podcasts' },
   { value: 6000, suffix: '+', label: 'LinkedIn Audience' },
   { value: 2, prefix: '~$', suffix: 'M+', label: 'Pipeline Influenced' },
 ];
@@ -177,6 +198,7 @@ export const TESTIMONIALS = [
 export const CONTACT = {
   email: 'adhishkacker@yahoo.com',
   linkedin: 'https://www.linkedin.com/in/adhish-kacker',
+  resume: 'https://customer-assets.emergentagent.com/job_gtm-leader/artifacts/lljpr7go_Adhish_Kacker_Resume.pdf',
 };
 
 export const PRODUCT_DECKS = [

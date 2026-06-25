@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Download } from 'lucide-react';
 import { Button } from './ui/button';
-import { HERO_STATS, FLOATING_TAGS } from '../lib/data';
+import { HERO_STATS, FLOATING_TAGS, CONTACT } from '../lib/data';
 
 const scrollTo = (id) => {
   const el = document.getElementById(id);
@@ -59,19 +59,20 @@ export const Hero = () => {
             >
               View My Work <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button
+            <a
+              href={CONTACT.resume}
+              target="_blank"
+              rel="noopener noreferrer"
               data-testid="hero-cta-resume"
-              variant="outline"
-              onClick={() => scrollTo('resume')}
-              className="rounded-full px-6 h-12"
+              className="inline-flex items-center justify-center rounded-full px-6 h-12 border border-border bg-card hover:bg-secondary transition text-sm font-medium"
             >
               <Download className="mr-2 h-4 w-4" /> Download Resume
-            </Button>
+            </a>
           </motion.div>
 
           <motion.div
             initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8, delay: 0.4 }}
-            className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-2xl"
+            className="mt-12 grid grid-cols-2 sm:grid-cols-5 gap-6 max-w-3xl"
             data-testid="hero-stats"
           >
             {HERO_STATS.map((s) => (

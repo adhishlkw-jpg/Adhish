@@ -97,16 +97,15 @@ export const CaseStudies = () => {
                             ))}
                           </ul>
                           {cs.pdf ? (
-                            <Button
-                              asChild
+                            <a
                               data-testid={`case-download-${cs.slug}`}
-                              variant="outline"
-                              className="mt-5 w-full rounded-full"
+                              href={cs.pdf}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="mt-5 w-full inline-flex items-center justify-center gap-2 rounded-full border border-border h-10 text-sm font-medium hover:bg-secondary transition"
                             >
-                              <a href={cs.pdf} target="_blank" rel="noopener noreferrer">
-                                <Download className="mr-2 h-4 w-4" /> Download PDF
-                              </a>
-                            </Button>
+                              <Download className="h-4 w-4" /> Download PDF
+                            </a>
                           ) : (
                             <Button
                               data-testid={`case-download-${cs.slug}`}

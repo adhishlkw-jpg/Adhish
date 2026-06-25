@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { Download, FileText, ArrowUpRight, Check } from 'lucide-react';
-import { Button } from './ui/button';
 import { PRODUCT_DECKS } from '../lib/data';
 
 export const ProductDecks = () => {
@@ -63,25 +62,25 @@ export const ProductDecks = () => {
                 </div>
 
                 <div className="mt-7 flex flex-wrap gap-3">
-                  <Button
-                    asChild
+                  <a
+                    href={deck.pdf}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     data-testid={`deck-view-${deck.slug}`}
-                    className="rounded-full brand-gradient text-white hover:opacity-90"
+                    className="inline-flex items-center justify-center rounded-full brand-gradient text-white hover:opacity-90 transition px-5 h-11 text-sm font-semibold"
                   >
-                    <a href={deck.pdf} target="_blank" rel="noopener noreferrer">
-                      View Deck <ArrowUpRight className="ml-2 h-4 w-4" />
-                    </a>
-                  </Button>
-                  <Button
-                    asChild
-                    variant="outline"
+                    View Deck <ArrowUpRight className="ml-2 h-4 w-4" />
+                  </a>
+                  <a
+                    href={deck.pdf}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    download
                     data-testid={`deck-download-${deck.slug}`}
-                    className="rounded-full"
+                    className="inline-flex items-center justify-center rounded-full border border-border bg-background hover:bg-secondary transition px-5 h-11 text-sm font-semibold"
                   >
-                    <a href={deck.pdf} download>
-                      <Download className="mr-2 h-4 w-4" /> Download PDF
-                    </a>
-                  </Button>
+                    <Download className="mr-2 h-4 w-4" /> Download PDF
+                  </a>
                 </div>
               </div>
             </motion.div>
