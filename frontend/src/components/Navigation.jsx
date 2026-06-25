@@ -33,7 +33,7 @@ export const Navigation = () => {
           onClick={() => scrollTo('home')}
           className="font-display font-bold text-lg tracking-tight"
         >
-          Adhish<span className="brand-gradient-text">.</span>
+          Adhish Kacker<span className="brand-gradient-text">.</span>
         </button>
 
         <nav className="hidden lg:flex items-center gap-8">
