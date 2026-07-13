@@ -7,6 +7,7 @@ import { Toaster } from '@/components/ui/sonner';
 import { Navigation } from '@/components/Navigation';
 import { Hero } from '@/components/Hero';
 import { About } from '@/components/About';
+import { Pitch } from '@/components/Pitch';
 import { Expertise } from '@/components/Expertise';
 import { CaseStudies } from '@/components/CaseStudies';
 import { ProductDecks } from '@/components/ProductDecks';
@@ -18,7 +19,7 @@ import { Footer } from '@/components/Footer';
 
 const HomePage = () => {
   useEffect(() => {
-    document.title = 'Adhish Kacker — Senior Product Marketing & GTM Leader';
+    document.title = 'Adhish Kacker — Senior Product Marketing, Brand & GTM Leader';
   }, []);
 
   return (
@@ -27,6 +28,7 @@ const HomePage = () => {
       <main>
         <Hero />
         <About />
+        <Pitch />
         <Expertise />
         <CaseStudies />
         <ProductDecks />

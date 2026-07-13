@@ -9,7 +9,7 @@ export const About = () => {
         <SectionHeading
           overline="About"
           title="Building market narratives that drive growth."
-          subtitle="Senior B2B marketing & product marketing leader with 11+ years across SaaS, AI, AdTech, Hospitality and Retail. I specialize in positioning, messaging, GTM, demand generation, sales enablement, ABM, thought leadership, events and PR."
+          subtitle="Senior B2B marketing leader with 11+ years across SaaS, AI, AdTech, Hospitality and Retail, working at the intersection of product marketing and brand. I specialize in positioning, messaging, GTM, demand generation, sales enablement and ABM, alongside brand strategy, integrated communications, PR and thought leadership."
           testId="about-heading"
         />
 

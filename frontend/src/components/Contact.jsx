@@ -35,7 +35,7 @@ export const Contact = () => {
             <div>
               <div className="text-xs tracking-[0.2em] uppercase text-muted-foreground">Connect</div>
               <div className="font-display font-bold text-lg mt-1">LinkedIn</div>
-              <div className="text-sm text-muted-foreground">linkedin.com/in/adhish-kacker</div>
+              <div className="text-sm text-muted-foreground">linkedin.com/in/adhish-kacker-79b85950</div>
             </div>
           </a>
 

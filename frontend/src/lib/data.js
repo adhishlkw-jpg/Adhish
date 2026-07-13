@@ -197,8 +197,8 @@ export const TESTIMONIALS = [
 
 export const CONTACT = {
   email: 'adhishkacker@yahoo.com',
-  linkedin: 'https://www.linkedin.com/in/adhish-kacker',
-  resume: 'https://customer-assets.emergentagent.com/job_gtm-leader/artifacts/lljpr7go_Adhish_Kacker_Resume.pdf',
+  linkedin: 'https://www.linkedin.com/in/adhish-kacker-79b85950/',
+  resume: '/Adhish_Kacker_Resume.pdf',
 };
 
 export const PRODUCT_DECKS = [

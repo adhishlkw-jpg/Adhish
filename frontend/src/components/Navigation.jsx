@@ -31,9 +31,18 @@ export const Navigation = () => {
         <button
           data-testid="nav-logo"
           onClick={() => scrollTo('home')}
-          className="font-display font-bold text-lg tracking-tight"
+          className="flex items-center gap-2.5"
         >
-          Adhish Kacker<span className="brand-gradient-text">.</span>
+          <span
+            data-testid="nav-logo-mark"
+            className="brand-gradient inline-flex h-9 w-9 items-center justify-center rounded-xl text-white font-display font-black text-sm tracking-tight shadow-sm"
+            aria-hidden="true"
+          >
+            AK
+          </span>
+          <span className="font-display font-bold text-lg tracking-tight">
+            Adhish Kacker<span className="brand-gradient-text">.</span>
+          </span>
         </button>
 
         <nav className="hidden lg:flex items-center gap-8">
