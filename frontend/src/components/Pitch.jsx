@@ -12,9 +12,9 @@ export const Pitch = () => {
           className="font-display font-black tracking-tighter text-3xl sm:text-4xl lg:text-5xl leading-[1.1]"
           data-testid="pitch-headline"
         >
-          Turning Product Complexities Into
+          Positioning, Brand and Pipeline
           <br className="hidden sm:block" />
-          <span className="brand-gradient-text"> Market Demand.</span>
+          <span className="brand-gradient-text"> Built as One Story.</span>
         </motion.h2>
 
         <motion.p
@@ -25,8 +25,10 @@ export const Pitch = () => {
           className="mt-6 max-w-2xl mx-auto text-base lg:text-lg text-muted-foreground"
           data-testid="pitch-sub"
         >
-          I help SaaS, AI and AdTech companies build positioning, launch products, generate demand,
-          and create category-defining narratives that drive pipeline and revenue.
+          I bring product marketing and brand communications together into a single narrative — defining
+          positioning and messaging, shaping brand strategy and PR, and turning that story into demand
+          generation and GTM execution that moves pipeline. For SaaS, AI and AdTech companies, that means
+          category clarity translates directly into revenue.
         </motion.p>
       </div>
     </section>

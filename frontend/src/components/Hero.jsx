@@ -26,7 +26,7 @@ export const Hero = () => {
             data-testid="hero-eyebrow"
           >
             <span className="h-1.5 w-1.5 rounded-full brand-gradient" />
-            Senior Product Marketing, Brand & GTM Leader
+            Senior Product Marketing, Communications, Brand & GTM Leader
           </motion.div>
 
           <motion.h1

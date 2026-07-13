@@ -22,11 +22,12 @@ export const FLOATING_TAGS = [
 ];
 
 export const TIMELINE = [
-  { company: 'Hybrid.ai', role: 'Marketing Lead — AdTech / AI', period: '2023 — 2026', highlight: 'Led GTM, PR, ABM and category-defining narrative for VOX contextual suite.' },
-  { company: 'Mitgo Group', role: 'Senior Marketing Manager — SaaS / MarTech', period: '2021 — 2023', highlight: 'Scaled regional demand engine across affiliate, partner & content marketing.' },
-  { company: 'Marriott International', role: 'Marketing & Brand', period: '2018 — 2021', highlight: 'Drove digital, loyalty and luxury brand storytelling for India properties.' },
-  { company: 'IHG Hotels & Resorts', role: 'Marketing Communications', period: '2016 — 2018', highlight: 'Owned PR, events and campaign rollouts across the IHG India portfolio.' },
-  { company: 'Aditya Birla Fashion & Retail', role: 'Marketing — Retail', period: '2013 — 2016', highlight: 'Built BTL, in-store and seasonal campaigns for flagship retail brands.' },
+  { company: 'Hybrid.ai', role: 'Senior Manager — Marketing, Product Marketing & Brand', period: 'Dec 2023 — Jan 2026', highlight: 'Led brand strategy, GTM and product marketing for an AI-driven programmatic advertising platform — positioning, PR and demand generation in one narrative.' },
+  { company: 'Mitgo', role: 'Senior Manager — Marketing, PR & GTM Communications', period: 'Jun 2022 — Dec 2023', highlight: 'Scaled the regional demand engine across India and APAC — GTM communications, partner marketing and corporate PR for SaaS products from zero.' },
+  { company: 'Littlee Millennium Education', role: 'Manager — Marketing & Communications', period: 'Dec 2020 — Jun 2022', highlight: 'Shaped brand strategy and led integrated communications — website, SEO, social, stakeholder messaging and on-ground activations.' },
+  { company: 'IHG Hotels & Resorts', role: 'Manager — Marketing Communications', period: 'Sep 2019 — Nov 2020', highlight: 'Owned the integrated marketing and PR calendar across the IHG India portfolio, driving footfall through 360° campaigns.' },
+  { company: 'Marriott International', role: 'Assistant Manager — Marketing & Communications', period: 'Jun 2017 — Sep 2019', highlight: 'Drove integrated brand marketing and communications for two Lucknow properties, supporting occupancy and revenue growth.' },
+  { company: 'Aditya Birla Fashion & Retail', role: 'Executive — Marketing & Brand Communications', period: 'Sep 2014 — Jan 2016', highlight: 'Built regional BTL, in-store and CRM campaigns for flagship retail brands, lifting footfall and GTM execution for new collections.' },
 ];
 
 export const EXPERTISE = [

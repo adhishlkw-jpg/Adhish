@@ -19,7 +19,7 @@ import { Footer } from '@/components/Footer';
 
 const HomePage = () => {
   useEffect(() => {
-    document.title = 'Adhish Kacker — Senior Product Marketing, Brand & GTM Leader';
+    document.title = 'Adhish Kacker — Senior Product Marketing, Communications, Brand & GTM Leader';
   }, []);
 
   return (
