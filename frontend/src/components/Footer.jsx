@@ -10,8 +10,8 @@ export const Footer = () => {
   return (
     <footer data-testid="footer" className="relative border-t border-border bg-background">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 py-20 lg:py-28">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
-          <div className="col-span-12 lg:col-span-7">
+        <div className="grid grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-10">
+          <div className="col-span-2 lg:col-span-7">
             <div className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">Let's Talk</div>
             <h3 className="font-display font-black tracking-tighter text-4xl sm:text-5xl leading-[1.05]">
               Building market narratives
@@ -20,7 +20,7 @@ export const Footer = () => {
             </h3>
           </div>
 
-          <div className="col-span-6 lg:col-span-2">
+          <div className="col-span-1 lg:col-span-2">
             <div className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">Site</div>
             <ul className="space-y-2 text-sm">
               {['work', 'product-decks', 'articles', 'resume', 'contact'].map((id) => (
@@ -33,7 +33,7 @@ export const Footer = () => {
             </ul>
           </div>
 
-          <div className="col-span-6 lg:col-span-3">
+          <div className="col-span-1 lg:col-span-3">
             <div className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">Connect</div>
             <ul className="space-y-3 text-sm">
               <li>
@@ -42,8 +42,8 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a data-testid="footer-email" href={`mailto:${CONTACT.email}`} className="inline-flex items-center gap-2 hover:brand-gradient-text">
-                  <Mail className="h-4 w-4" /> {CONTACT.email}
+                <a data-testid="footer-email" href={`mailto:${CONTACT.email}`} className="inline-flex items-start gap-2 hover:brand-gradient-text min-w-0">
+                  <Mail className="h-4 w-4 shrink-0 mt-0.5" /> <span className="break-all">{CONTACT.email}</span>
                 </a>
               </li>
             </ul>

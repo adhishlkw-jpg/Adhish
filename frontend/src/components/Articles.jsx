@@ -21,7 +21,7 @@ export const Articles = () => {
           testId="articles-heading"
         />
 
-        <div className="mt-14 grid grid-cols-1 lg:grid-cols-12 gap-5">
+        <div className="mt-14 grid grid-cols-1 sm:grid-cols-12 gap-5">
           {ARTICLES.map((a, i) => (
             <motion.a
               key={a.url}
@@ -32,7 +32,7 @@ export const Articles = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-40px' }}
               transition={{ duration: 0.5, delay: (i % 6) * 0.05 }}
-              className="group col-span-12 sm:col-span-6 lg:col-span-4 rounded-2xl border border-border bg-card overflow-hidden hover:-translate-y-1 transition-all hover:shadow-xl"
+              className="group sm:col-span-6 lg:col-span-4 rounded-2xl border border-border bg-card overflow-hidden hover:-translate-y-1 transition-all hover:shadow-xl"
               data-testid={`article-card-${i}`}
             >
               <div className={`relative h-36 bg-gradient-to-br ${GRADIENTS[i % GRADIENTS.length]} overflow-hidden`}>

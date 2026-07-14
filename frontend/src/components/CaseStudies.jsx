@@ -80,12 +80,12 @@ export const CaseStudies = () => {
                   </AccordionTrigger>
                   <AccordionContent className="px-4 lg:px-6 pb-6">
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-                      <div className="col-span-12 lg:col-span-8 space-y-5">
+                      <div className="lg:col-span-8 space-y-5">
                         <Block label="Challenge" body={cs.challenge} />
                         <Block label="Strategy" body={cs.strategy} />
                         <Block label="Execution" body={cs.execution} />
                       </div>
-                      <div className="col-span-12 lg:col-span-4">
+                      <div className="lg:col-span-4">
                         <div className="rounded-2xl border border-border bg-background p-5">
                           <div className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-3">Results</div>
                           <ul className="space-y-3">

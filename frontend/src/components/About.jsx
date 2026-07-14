@@ -14,7 +14,7 @@ export const About = () => {
         />
 
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-12 gap-10">
-          <div className="col-span-12 lg:col-span-5">
+          <div className="lg:col-span-5">
             <div className="sticky top-28">
               <div className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-3">Experience</div>
               <h3 className="font-display font-bold text-2xl lg:text-3xl mb-6">
@@ -28,7 +28,7 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="col-span-12 lg:col-span-7">
+          <div className="lg:col-span-7">
             <div className="relative pl-8">
               <div className="absolute left-2 top-2 bottom-2 w-px bg-border" />
               {TIMELINE.map((t, i) => (

@@ -15,7 +15,7 @@ export const Resume = () => {
         >
           <div className="absolute inset-0 noise opacity-20 pointer-events-none" />
           <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-            <div className="col-span-12 lg:col-span-8">
+            <div className="lg:col-span-8">
               <div className="text-xs tracking-[0.2em] uppercase font-semibold opacity-80">Resume</div>
               <h2 className="font-display font-black tracking-tight text-3xl sm:text-4xl lg:text-5xl mt-3 leading-tight">
                 A snapshot of 10+ years building category-defining brands.
@@ -24,7 +24,7 @@ export const Resume = () => {
                 Full work history, certifications and case studies — packaged for hiring managers, founders and agency partners.
               </p>
             </div>
-            <div className="col-span-12 lg:col-span-4 flex flex-col gap-3">
+            <div className="lg:col-span-4 flex flex-col gap-3">
               <a
                 href={CONTACT.resume}
                 target="_blank"

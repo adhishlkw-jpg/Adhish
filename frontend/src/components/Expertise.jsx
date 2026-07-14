@@ -16,7 +16,7 @@ export const Expertise = () => {
           testId="expertise-heading"
         />
 
-        <div className="mt-14 grid grid-cols-1 lg:grid-cols-12 gap-5">
+        <div className="mt-14 grid grid-cols-1 sm:grid-cols-12 gap-5">
           {EXPERTISE.map((card, i) => {
             const Icon = ICONS[card.icon] || Rocket;
             return (
@@ -26,7 +26,7 @@ export const Expertise = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.5, delay: i * 0.04 }}
-                className="col-span-12 sm:col-span-6 lg:col-span-4 group"
+                className="sm:col-span-6 lg:col-span-4 group"
                 data-testid={`expertise-card-${i}`}
               >
                 <div className="glow-border h-full rounded-2xl bg-card border border-border p-6 lg:p-7 transition-all hover:-translate-y-1 hover:shadow-xl">

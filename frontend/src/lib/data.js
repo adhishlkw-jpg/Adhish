@@ -67,7 +67,7 @@ export const WORK = [
     summary: 'Positioned Hybrid VOX as the benchmark for contextual, cookie-less advertising through PR, content, social campaigns, podcasts and executive thought leadership.',
     quote: '"Advertising should understand meaning, not just keywords."',
     image: 'https://images.pexels.com/photos/28628485/pexels-photo-28628485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-    span: 'col-span-12 md:col-span-8',
+    span: 'md:col-span-8',
   },
   {
     slug: 'vox-suite',
@@ -75,7 +75,7 @@ export const WORK = [
     category: 'Product Marketing',
     summary: 'Built product narrative around AI-powered contextual intelligence, computer vision and brand-safe advertising.',
     image: 'https://images.pexels.com/photos/13807426/pexels-photo-13807426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-    span: 'col-span-12 md:col-span-4',
+    span: 'md:col-span-4',
   },
   {
     slug: 'auto-konnect',
@@ -83,7 +83,7 @@ export const WORK = [
     category: 'Product Launch',
     summary: 'Created positioning and GTM narrative for an automotive advertising ecosystem blending contextual, programmatic and TV-sync technologies.',
     image: 'https://images.pexels.com/photos/14528986/pexels-photo-14528986.jpeg',
-    span: 'col-span-12 md:col-span-4',
+    span: 'md:col-span-4',
   },
   {
     slug: 'philips',
@@ -92,7 +92,7 @@ export const WORK = [
     summary: '8.3M impressions, 82K clicks, 0.99% CTR, 73K sales — driven through contextual targeting and dynamic creative.',
     metrics: [{ k: 'Impressions', v: '8.3M' }, { k: 'CTR', v: '0.99%' }, { k: 'Sales', v: '73K' }],
     image: 'https://images.pexels.com/photos/28628485/pexels-photo-28628485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-    span: 'col-span-12 md:col-span-8',
+    span: 'md:col-span-8',
   },
   {
     slug: 'dsp',
@@ -101,7 +101,7 @@ export const WORK = [
     summary: 'TV-synced programmatic activations driving 7.2M impressions, 87K clicks and 1.20% CTR.',
     metrics: [{ k: 'Impressions', v: '7.2M' }, { k: 'Clicks', v: '87K' }, { k: 'CTR', v: '1.20%' }],
     image: 'https://images.pexels.com/photos/13807426/pexels-photo-13807426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-    span: 'col-span-12 md:col-span-6',
+    span: 'md:col-span-6',
   },
   {
     slug: 'himalaya',
@@ -109,7 +109,7 @@ export const WORK = [
     category: 'Contextual Advertising',
     summary: 'Drove awareness and consideration through the VOX Contextual Marketing Suite across natural beauty and wellness contexts.',
     image: 'https://images.pexels.com/photos/14528986/pexels-photo-14528986.jpeg',
-    span: 'col-span-12 md:col-span-6',
+    span: 'md:col-span-6',
   },
 ];
 
