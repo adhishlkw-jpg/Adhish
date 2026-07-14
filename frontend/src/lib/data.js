@@ -14,17 +14,18 @@ export const HERO_STATS = [
   { value: '~$2M+', label: 'Pipeline Influenced' },
   { value: '30%', label: 'MQL Growth' },
   { value: '500+', label: 'Media Mentions' },
+  { value: '200+', label: 'Industry Events' },
   { value: '10+', label: 'Webinars & Podcasts' },
 ];
 
 export const FLOATING_TAGS = [
-  'Product Marketing', 'GTM', 'ABM', 'Content Strategy', 'AI Marketing',
+  'Product Marketing', 'Brand Strategy', 'GTM', 'PR & Communications', 'ABM', 'Demand Generation', 'Content Strategy', 'AI Marketing',
 ];
 
 export const TIMELINE = [
   { company: 'Hybrid.ai', role: 'Senior Manager — Marketing, Product Marketing & Brand', period: 'Dec 2023 — Jan 2026', highlight: 'Led brand strategy, GTM and product marketing for an AI-driven programmatic advertising platform — positioning, PR and demand generation in one narrative.' },
   { company: 'Mitgo', role: 'Senior Manager — Marketing, PR & GTM Communications', period: 'Jun 2022 — Dec 2023', highlight: 'Scaled the regional demand engine across India and APAC — GTM communications, partner marketing and corporate PR for SaaS products from zero.' },
-  { company: 'Littlee Millennium Education', role: 'Manager — Marketing & Communications', period: 'Dec 2020 — Jun 2022', highlight: 'Shaped brand strategy and led integrated communications — website, SEO, social, stakeholder messaging and on-ground activations.' },
+  { company: 'Little Millennium Education', role: 'Manager — Marketing & Communications', period: 'Dec 2020 — Jun 2022', highlight: 'Shaped brand strategy and led integrated communications — website, SEO, social, stakeholder messaging and on-ground activations.' },
   { company: 'IHG Hotels & Resorts', role: 'Manager — Marketing Communications', period: 'Sep 2019 — Nov 2020', highlight: 'Owned the integrated marketing and PR calendar across the IHG India portfolio, driving footfall through 360° campaigns.' },
   { company: 'Marriott International', role: 'Assistant Manager — Marketing & Communications', period: 'Jun 2017 — Sep 2019', highlight: 'Drove integrated brand marketing and communications for two Lucknow properties, supporting occupancy and revenue growth.' },
   { company: 'Aditya Birla Fashion & Retail', role: 'Executive — Marketing & Brand Communications', period: 'Sep 2014 — Jan 2016', highlight: 'Built regional BTL, in-store and CRM campaigns for flagship retail brands, lifting footfall and GTM execution for new collections.' },

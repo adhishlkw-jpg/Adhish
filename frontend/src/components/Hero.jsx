@@ -72,7 +72,7 @@ export const Hero = () => {
 
           <motion.div
             initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8, delay: 0.4 }}
-            className="mt-12 grid grid-cols-2 sm:grid-cols-5 gap-6 max-w-3xl"
+            className="mt-12 grid grid-cols-2 sm:grid-cols-3 gap-6 max-w-3xl"
             data-testid="hero-stats"
           >
             {HERO_STATS.map((s) => (
@@ -85,7 +85,7 @@ export const Hero = () => {
         </div>
 
         <div className="lg:col-span-4 hidden lg:block">
-          <div className="relative h-[460px]">
+          <div className="relative h-[560px]">
             {FLOATING_TAGS.map((tag, i) => (
               <motion.div
                 key={tag}
@@ -94,7 +94,7 @@ export const Hero = () => {
                 transition={{ y: { duration: 5 + i, repeat: Infinity, ease: 'easeInOut' }, opacity: { duration: 0.6, delay: 0.4 + i * 0.1 } }}
                 className="absolute glass rounded-2xl px-4 py-3 text-sm font-medium shadow-sm"
                 style={{
-                  top: `${10 + i * 18}%`,
+                  top: `${6 + i * (86 / (FLOATING_TAGS.length - 1))}%`,
                   left: `${i % 2 === 0 ? 5 : 45}%`,
                 }}
                 data-testid={`floating-tag-${i}`}
