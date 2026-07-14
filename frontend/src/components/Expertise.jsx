@@ -16,7 +16,7 @@ export const Expertise = () => {
           testId="expertise-heading"
         />
 
-        <div className="mt-14 grid grid-cols-12 gap-5">
+        <div className="mt-14 grid grid-cols-1 lg:grid-cols-12 gap-5">
           {EXPERTISE.map((card, i) => {
             const Icon = ICONS[card.icon] || Rocket;
             return (

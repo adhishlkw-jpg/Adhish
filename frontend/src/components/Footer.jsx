@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <footer data-testid="footer" className="relative border-t border-border bg-background">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 py-20 lg:py-28">
-        <div className="grid grid-cols-12 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
           <div className="col-span-12 lg:col-span-7">
             <div className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">Let's Talk</div>
             <h3 className="font-display font-black tracking-tighter text-4xl sm:text-5xl leading-[1.05]">

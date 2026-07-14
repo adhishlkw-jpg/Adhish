@@ -21,7 +21,7 @@ export const Articles = () => {
           testId="articles-heading"
         />
 
-        <div className="mt-14 grid grid-cols-12 gap-5">
+        <div className="mt-14 grid grid-cols-1 lg:grid-cols-12 gap-5">
           {ARTICLES.map((a, i) => (
             <motion.a
               key={a.url}

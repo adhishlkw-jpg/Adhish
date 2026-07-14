@@ -18,7 +18,7 @@ export const Hero = () => {
       <div className="hero-mesh" />
       <div className="absolute inset-0 noise pointer-events-none" />
 
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-12 gap-10 items-center">
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
         <div className="col-span-12 lg:col-span-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
@@ -44,8 +44,8 @@ export const Hero = () => {
             className="mt-6 max-w-2xl text-base lg:text-lg text-muted-foreground"
             data-testid="hero-sub"
           >
-            I help SaaS, AI and AdTech companies build positioning, launch products, generate demand,
-            and create category-defining narratives that drive pipeline and revenue.
+            I help brands build positioning, launch products, generate demand, and craft category-defining
+            narratives — across marketing, communications and GTM, for B2B and B2C alike.
           </motion.p>
 
           <motion.div

@@ -13,7 +13,7 @@ export const About = () => {
           testId="about-heading"
         />
 
-        <div className="mt-16 grid grid-cols-12 gap-10">
+        <div className="mt-16 grid grid-cols-1 lg:grid-cols-12 gap-10">
           <div className="col-span-12 lg:col-span-5">
             <div className="sticky top-28">
               <div className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-3">Experience</div>

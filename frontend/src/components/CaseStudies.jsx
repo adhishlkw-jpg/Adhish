@@ -79,7 +79,7 @@ export const CaseStudies = () => {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="px-4 lg:px-6 pb-6">
-                    <div className="grid grid-cols-12 gap-6">
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                       <div className="col-span-12 lg:col-span-8 space-y-5">
                         <Block label="Challenge" body={cs.challenge} />
                         <Block label="Strategy" body={cs.strategy} />

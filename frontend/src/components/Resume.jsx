@@ -14,7 +14,7 @@ export const Resume = () => {
           className="relative overflow-hidden rounded-3xl border border-border brand-gradient p-10 lg:p-16 text-white"
         >
           <div className="absolute inset-0 noise opacity-20 pointer-events-none" />
-          <div className="relative grid grid-cols-12 gap-10 items-center">
+          <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             <div className="col-span-12 lg:col-span-8">
               <div className="text-xs tracking-[0.2em] uppercase font-semibold opacity-80">Resume</div>
               <h2 className="font-display font-black tracking-tight text-3xl sm:text-4xl lg:text-5xl mt-3 leading-tight">

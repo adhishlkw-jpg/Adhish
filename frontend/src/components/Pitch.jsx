@@ -27,8 +27,8 @@ export const Pitch = () => {
         >
           I bring product marketing and brand communications together into a single narrative — defining
           positioning and messaging, shaping brand strategy and PR, and turning that story into demand
-          generation and GTM execution that moves pipeline. For SaaS, AI and AdTech companies, that means
-          category clarity translates directly into revenue.
+          generation and GTM execution that moves pipeline. Whether the work is marketing or communications,
+          that clarity turns into pipeline, revenue and reputation — for B2B and B2C brands alike.
         </motion.p>
       </div>
     </section>
