@@ -45,7 +45,7 @@ export const Hero = () => {
             data-testid="hero-sub"
           >
             I help brands build positioning, launch products, generate demand, and craft category-defining
-            narratives — across marketing, communications and GTM, for B2B and B2C alike.
+            narratives.
           </motion.p>
 
           <motion.div

@@ -52,7 +52,7 @@ export const Footer = () => {
 
         <div className="mt-16 pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
           <div>© {new Date().getFullYear()} Adhish Kacker. All rights reserved.</div>
-          <div>Senior Product Marketing & GTM Leader · SaaS · AI · AdTech</div>
+          <div>Senior Product Marketing, Communications, Brand & GTM Leader</div>
         </div>
       </div>
     </footer>
